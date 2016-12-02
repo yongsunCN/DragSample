@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.topbitz.android.dragsample.ParentLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.topbitz.android.dragsample.MainActivity">
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/button"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/top_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:clickable="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/drag_bar"
+            android:background="@android:color/holo_blue_dark">
+
+        </View>
+
+    </RelativeLayout>
+</com.topbitz.android.dragsample.ParentLayout>
